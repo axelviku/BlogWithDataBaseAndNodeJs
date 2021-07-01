@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+    <h1>Contact us</h1>
+    <p><%= contactContent %></p>
+
+    <form class="form" action="contact" method="post">
+      <label>Name</label><br>
+      <input type="text" name="name" value=""><br>
+      <label>Email</label> <br>
+      <input type="email" name="email" value=""><br>
+      <label>Number</label><br>
+      <input type="number" name="number" value=""><br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+
+<%- include("partials/footer") -%>
